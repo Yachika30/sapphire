@@ -1,0 +1,16 @@
+.signupwrapper{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.signupcard{
+    width:25rem;
+    margin-top: 5%;
+}
+.sapphireLogo{
+    display: flex;
+    margin: 2%;
+    max-width:inherit;
+    justify-content: center;
+    align-items: center;
+}
