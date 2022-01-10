@@ -1,16 +1,38 @@
 .signupwrapper{
     display: flex;
     justify-content: center;
-    margin: 2%;
 }
 .signupcard{
-    width:25rem;
-    margin-top: 5%;
+    max-width: 350px;
+    min-width: none;
+    margin-top: 3%;
 }
 .sapphireLogo{
-    display: flex;
-    margin: 2%;
-    max-width:inherit;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    
+    
+    justify-content:center;
+    align-items:center;
+}
+.sapphireLogo img{
+    width:15vw;
+
+}
+.Card2{
+    height:3vh;
+    margin-top: 2%;
+}
+.Type1{
+    color: gray;
+}
+.button{
+    margin-top:3px;
+}
+@media only screen and (max-width:620px) {
+    .insta-logo img{
+        width: 35%;
+    }
+    .signupcard{
+        width: 60%;
+    }
 }
